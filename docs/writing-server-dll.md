@@ -188,7 +188,7 @@ STDAPI StationGetObject(LPUNKNOWN *ppStation)
 > [!NOTE]
 > If the compiler finds no function named `StationGetObject` with exactly the above signature, then your DLL won't compile. So be careful to correctly write the definition of this function and its parameters.
 
-Your implementation of `StationGetObject` typically creates an instance of the COM class you wrote in **Step 1**, and then returns the newly-created object in the `ppStation` argument. If an instance of the COM class was successfully created, the function should return `S_OK`. If instance creation failed, for example, due to a lack of memory, the function should return an appropriate error code, such as `E_OUTOFMEMORY`.
+Your implementation of `StationGetObject` typically creates an instance of the COM class you wrote in [Step 1](#step-1-writing-the-com-class), and then returns the newly-created object in the `ppStation` argument. If an instance of the COM class was successfully created, the function should return `S_OK`. If instance creation failed, for example, due to a lack of memory, the function should return an appropriate error code, such as `E_OUTOFMEMORY`.
 
 The following is an example of an implementation of `StationGetObject`:
 
