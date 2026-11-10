@@ -22,3 +22,6 @@ A solid understanding of **COM and ActiveX technologies** is prerequisite to the
 For more information on how to use Active Station, see [Developing an Active Station Project](docs/writing-project.md).
 
 For a sample program that uses Active Station, visit the [TestStation repository](https://github.com/javadbayat/TestStation).
+
+## Derivatives
+To view a list of some of our current Active-Station-based projects, visit the [Derivatives page on our Wiki](https://github.com/javadbayat/ActiveStation/wiki/Derivatives).
