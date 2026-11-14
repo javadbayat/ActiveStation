@@ -79,4 +79,4 @@ function LoadStation(moduleName) {
 }
 ```
 
-So far we have discussed how to write a client script that runs in **the Windows Script Host (WSH) environment**. It's worth noting that the client script can also be implemented as a script embedded in [an HTML Application (HTA)](https://learn.microsoft.com/en-us/previous-versions/ms536496(v=vs.85)). It's on your own to find out how.
+So far we have discussed how to write a client script that runs in [the Windows Script Host (WSH)](https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/9bbdkx3k(v=vs.84)) environment. It's worth noting that the client script can also be implemented as a script embedded in [an HTML Application (HTA)](https://learn.microsoft.com/en-us/previous-versions/ms536496(v=vs.85)). It's on your own to find out how.
